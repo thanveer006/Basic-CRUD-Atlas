@@ -82,8 +82,7 @@ app.delete("/items/:id", async (req, res) => {
 });
 
 app.get('/',(req,res)=>{
-  console.log('server working');
-  
+  res.send('server working')
 })
 
 
